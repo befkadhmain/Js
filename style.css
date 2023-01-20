@@ -1,0 +1,93 @@
+.content {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin: auto;
+}
+
+button {
+    border: none;
+    padding: 10px 0 10px 0;
+    color: black;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: darkred;
+}
+
+#save-btn {
+    background: green;
+}
+
+#save-btn:hover {
+    background: darkred;
+}
+
+.increment-btn-onclick {
+    transition: 100ms ease;
+    transform: scale(.97);
+}
+
+#increment-btn:hover {
+    background-color: black;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body p {
+    position: absolute;
+    margin-top: 60%;
+}
+
+img {
+    width: 40%;
+    position: relative;
+}
+
+.text {
+    margin: auto;
+    position: absolute;
+    margin-top: 71%;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    border-radius: 40px;
+}
+
+.text:hover {
+    background-color: black;
+    color: white;
+}
+
+.error {
+    color: red;
+    margin-top: 85%;
+}
+
+.num1, .num2 {
+    position: absolute;
+    margin-top: -20%;
+}
+
+.num1 {
+    margin-left: -10%;
+}
+
+.num2 {
+    margin-right: -10%;
+}
+
+.answer {
+    position: absolute;
+    margin: auto;
+}
